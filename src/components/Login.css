@@ -1,0 +1,49 @@
+/* Login.css */
+.auth-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container h2 {
+    margin-top: 0;
+  }
+  
+  .auth-container input[type="email"],
+  .auth-container input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .auth-link a {
+    color: #007bff;
+  }
+  
+  .error {
+    color: red;
+  }
+  

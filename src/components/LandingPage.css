@@ -1,0 +1,188 @@
+/* LandingPage.css */
+
+/* Landing Container */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    background-image: url(C:/Users/devan/firebase-notes-app/public/images/backgroung.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .landing-title {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .landing-subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features Section */
+  .features-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  /* Testimonial Section */
+  .testimonial-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .testimonial-author {
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  /* Newsletter Section */
+  .newsletter-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .newsletter-title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-description {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .newsletter-button {
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-menu a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-menu a:hover {
+    color: #fff;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
